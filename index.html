@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link css  -->
+   <!-- 80.580WR07 -->
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="shortcut icon" href="img/logo_icon_sourav.png" type="image/x-icon">
+  <title>Bootstrap template</title>
+</head>
+<body>
+  <div class="container">
+    <div class="mar_bot">
+      <div class="row">
+        <!-- item1 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#1</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="textChange()">text change</button>
+              <p id="tc" class="mb-0">ALHAMDULILLAH</p>
+            </div>
+          </div>
+        </div>
+        <!-- item1 end -->
+        <!-- item2 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#2</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="showTime()">show time</button>
+              <p id="st" class="mb-0"></p>
+            </div>
+          </div>
+        </div>
+        <!-- item2 end -->
+        <!-- item3 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#3</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="colorChange()">change color</button>
+              <p id="clr" class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt quis quia placeat corporis at!</p>
+            </div>
+          </div>
+        </div>
+        <!-- item3 end -->
+        <!-- item4 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#4</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="fontSize()">font size ?</button>
+              <p id="fnt_siz" class="mb-0">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item4 end -->
+        <!-- item5 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#5</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="fontFamily()">font family</button>
+              <p class="f_f" id="ff">MD.SOURAV</p>
+            </div>
+          </div>
+        </div>
+        <!-- item5 end -->
+        <!-- item6 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#6</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="displayShow()">show</button>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="displayHide()">hide</button>
+              <div class="box3 mx-auto" id="boxshow"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item6 end -->
+        <!-- item7 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#7</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="raidus()">raidus</button>
+              <div class="box3 box5 mx-auto" id="raidus"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item7 end -->
+        <!-- item8 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#8</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="circle()">circle</button>
+              <div class="box3 box4 mx-auto" id="circle"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item8 end -->
+        <!-- item9 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#9</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="border()">border</button>
+              <div class="box3 box4 box6 mx-auto" id="border"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item9 end -->
+        <!-- item 10 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#10</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="radius_tl_br()">top-left  bottom-right</button>
+              <div class="box3 box5 mx-auto" id="tl_br"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item 10 end -->
+        <!-- item 11 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#11</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="radius_tb_bl()">top-right  bottom-left</button>
+              <div class="box3 box5 mx-auto" id="tr_bl"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item 11 end -->
+        <!-- item 12 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#12</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="squreBox()">squre box</button>
+              <div class="box3 box4 box7 mx-auto" id="sqr_box"></div>
+            </div>
+          </div>
+        </div>
+        <!-- item 12 end -->
+        <!-- item13 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#13</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="underLine()">underline</button>
+              <p>Lorem, ipsum dolor. <br> <span id="undr">Lorem, ipsum.</span> <br> Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item13 end -->
+        <!-- item14 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#14</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="mark()">mark</button>
+              <p>Lorem ipsum dolor sit amet. <br> <span id="mark">Lorem ipsum dolor sit.</span> <br> Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item14 end -->
+        <!-- item15 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#15</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="uppcase()">uppcase</button>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="lowcase()">lowcase</button>
+              <h4 id="upp_lw">lorem, ipsum dolor.</h4>
+            </div>
+          </div>
+        </div>
+        <!-- item 16 strat -->
+        <div class="col-lg-3">
+          <div class="function">
+            <div class="box1 text-center">
+              <h2 class="mb-0">#15</h2>
+              <button type="button" class="
+              btn btn-info c_btn" onclick="alartBox()">alart</button>
+              <P>CLICK ALART</P>
+            </div>
+          </div>
+        </div>
+        <!-- item 16 end -->
+         <!-- item 17 strat -->
+          <div class="col-lg-4">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#17</h2>
+                <button type="button" class="
+                btn btn-success c_btn" onclick="blubOn()()">on</button>
+                <img class="blub" id="blub" src="img/qus.png" alt="blub">
+                <button type="button" class="
+                btn btn-danger c_btn" onclick="blubOff()">off</button>
+              </div>
+            </div>
+          </div>
+         <!-- item 17 end -->
+         <!-- item 18 strat -->
+          <div class="col-lg-4">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#18</h2>
+                <button type="button" class="
+                btn btn-success c_btn" onclick="coldCoffe()">cold</button>
+                <img class="coffe" id="coffe" src="img/qus-removebg-preview.png" alt="blub">
+                <button type="button" class="
+                btn btn-danger c_btn" onclick="hotCoffe()">hot</button>
+              </div>
+            </div>
+          </div>
+         <!-- item 18 end -->
+         <!-- item 19 strat -->
+          <div class="col-lg-4">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#19</h2>
+                <button type="button" class="
+                btn btn-success c_btn" onclick="hp_sd()">happy</button>
+                <img class="hp_sd" id="happy" src="img/qus-removebg-preview.png" alt="happy">
+                <button type="button" class="
+                btn btn-danger c_btn" onclick="sd_hp()">sad</button>
+              </div>
+            </div>
+          </div>
+         <!-- item 19 end -->
+          <!-- item 20 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#20</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="line_throug()">line throug</button>
+                <p id="line_throug">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 20 end -->
+          <!-- item 21 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#21</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="overline()">overline</button>
+                <p id="overline">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 21 end -->
+          <!-- item 22 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#22</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="lettterSpacing()">letter specing</button>
+                <p id="lettterSpacing">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 22 end -->
+          <!-- item 23 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#23</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="wordSpecing()">word specing</button>
+                <p id="wordSpacing">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 23 end -->
+          <!-- item 24 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#24</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="textAlingStart()">text align left</button>
+                <p id="textAlignStrat">Lorem</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 24 end -->
+          <!-- item 25 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#25</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="textAlignEnd()">text align right</button>
+                <p id="textAlignEnd">Lorem</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 25 end -->
+          <!-- item 26 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box8">
+                <h2 class="mb-0">#26</h2>
+                <div class="button_box mx-auto">
+                  <button type="button" class="
+                btn btn-info c_btn" onclick="textAlignCenter()">text align center</button>
+                </div>
+                <p id="textAlignCenter">Lorem</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 26 end -->
+          <!-- item 27 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#27</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="fontWeight()">font weight</button>
+                <p id="font_weight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio?</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 27 end -->
+          <!-- item 28 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#28</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="bdrTop()">border top</button>
+                <p id="bdrTop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio?</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 28 end -->
+          <!-- item 29 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#29</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="dotid()">border</button>
+                <p id="brdrDoted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio?</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 29 end -->
+          <!-- item 30 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#30</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="solid()">solid</button>
+                <p id="solid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio?</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 30 end -->
+          <!-- item 31 strat -->
+          <div class="col-lg-3">
+            <div class="function">
+              <div class="box1 text-center">
+                <h2 class="mb-0">#31</h2>
+                <button type="button" class="
+                btn btn-info c_btn" onclick="bottom()">bottom</button>
+                <p id="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio?</p>
+              </div>
+            </div>
+          </div>
+          <!-- item 31 end -->
+          
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
+
+
+
+
